@@ -16,9 +16,9 @@
 				#define MAP_OVERRIDE_FILES
 		        #include "map_files\fallout\job\jobs.dm"
 		        #include "map_files\fallout\job\removed_jobs.dm"
-		        #include "map_files\fallout\obj\clothing.dm"
-		        #include "map_files\fallout\obj\reagent_containers.dm"
-		        #include "map_files\fallout\misc.dm"
+		        //#include "map_files\fallout\obj\clothing.dm" // todo: fix this.
+		        //#include "map_files\fallout\obj\reagent_containers.dm"
+		        //#include "map_files\fallout\misc.dm"
 		#endif
 
 #elif !defined(MAP_OVERRIDE)
